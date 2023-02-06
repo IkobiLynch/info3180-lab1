@@ -4,14 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
     <title>My Website - About</title>
 </head>
 <body>
-    <h1>Ikobi Lynch</h1>
-    <p>I am a final year student at The University of the West Indies. I aspire to own my own tech company in the near future, 
-        so I am trying to have as broad of a knowledge as I can have about various technical topics. I will get it done, and I
-        will be succesful. Thank you for attending my Ted talk. 
-    </p>
-    
+    <div class="header">
+        <nav>
+            <img src="{{ url_for('static', filename='TalikoLogo.png') }}" alt="Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Experience</a></li>
+                <li><a href="">Project</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+    <div class="container">
+        <h1>Ikobi Lynch</h1>
+        <p>I am a final year student at The University of the West Indies. I aspire to own my own tech company in the near future, 
+            so I am trying to have as broad of a knowledge as I can have about various technical topics. I will get it done, and I
+            will be succesful. Thank you for attending my Ted talk. 
+        </p>
+    </div>
+   
 </body>
 </html>
+
+<!-- <div class="">
+        <h1>Ikobi Lynch</h1>
+        <p>I am a final year student at The University of the West Indies. I aspire to own my own tech company in the near future, 
+            so I am trying to have as broad of a knowledge as I can have about various technical topics. I will get it done, and I
+            will be succesful. Thank you for attending my Ted talk. 
+        </p>
+
+    </div> -->
